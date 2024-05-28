@@ -6,9 +6,9 @@ import ThreeWeeksComp from "./ThreeWeeksComp";
 
 function App() {
   const startDate = new Date(2024, 4, 28, 12);
-  const endDate2Weeks = new Date(2024, 5, 11, 12);
-  const endDate3Weeks = new Date(2024, 5, 18, 12);
-  const endDateMonth = new Date(2024, 5, 28, 12);
+  const endDate2Weeks = new Date(2024, 5, 11, 12, 0);
+  const endDate3Weeks = new Date(2024, 5, 18, 12, 0);
+  const endDateMonth = new Date(2024, 5, 28, 12, 0);
 
   return (
     <div className="App">
